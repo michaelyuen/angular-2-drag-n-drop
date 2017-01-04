@@ -1,7 +1,5 @@
-<ul [dragula]="'bag-one'" [dragulaModel]="containerList">
-	<li *ngFor="let item of containerList" class="flex justify-center align-center">
-		<h3 class="center">{{ item }}</h3>
-	</li>
-</ul>
+<div class="list flex justify-center align-center"[dragula]="'bag-one'" [dragulaModel]="list">
+	<div class="item flex justify-center align-center" *ngFor="let item of list">{{ item.name }}</div>
+</div>
 
-<div>containerList: [ {{ containerList }} ]</div>
+<!-- <div class="output" [hidden]="!message">{{ message }}</div> -->

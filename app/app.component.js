@@ -12,6 +12,19 @@ var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Angular 2 Drag n Drop';
+        this.businessCapabilities = [
+            { id: 1, name: 'apples' },
+            { id: 2, name: 'oranges' },
+            { id: 3, name: 'bananas' },
+            { id: 4, name: 'watermelon' },
+            { id: 5, name: 'pineapple' },
+            { id: 6, name: 'peaches' },
+            { id: 7, name: 'pears' },
+            { id: 8, name: 'kiwis' }
+        ];
+        this.release1 = [];
+        this.release2 = [];
+        this.release3 = [];
     }
     return AppComponent;
 }());

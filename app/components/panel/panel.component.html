@@ -1,7 +1,3 @@
-<ul [dragula]="'bag-one'" [dragulaModel]="panelList">
-	<li *ngFor="let item of panelList" class="flex justify-center align-center">
-		<h3 class="center">{{ item }}</h3>
-	</li>
-</ul>
-
-<div>panelList: [ {{ panelList }} ]</div>
+<div class="list flex justify-center align-center" [dragula]="'bag-one'" [dragulaModel]="list">
+	<div class="item flex justify-center align-center" *ngFor="let item of list">{{ item.name }}</div>
+</div>

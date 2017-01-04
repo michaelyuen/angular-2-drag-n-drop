@@ -31,8 +31,8 @@ h6 {
 	align-items: center;
 }
 
-.child-half {
-	flex-basis: 50%;
+.child-quarter {
+	flex-basis: 25%;
 }
 
 .red-200 {
@@ -41,4 +41,12 @@ h6 {
 
 .green-200 {
 	background: #A5D6A7;
+}
+
+.purple-200 {
+	background: #CE93D8;
+}
+
+.teal-200 {
+	background: #80CBC4;
 }

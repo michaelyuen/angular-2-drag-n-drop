@@ -14,4 +14,4 @@ import {
 	declarations: [ AppComponent, ContainerComponent, PanelComponent, ToolbarComponent ],
 	bootstrap:    [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule {}
