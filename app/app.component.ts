@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
+
 @Component({
-	selector: 'my-app',
-	template: '<h1>My SECOND Angular App</h1>'
+	moduleId: module.id,
+	selector: 'app',
+	templateUrl: 'app.component.html'
 })
-export class AppComponent { }
+export class AppComponent {
+	title: string = 'Angular 2 Drag n Drop';
+}
