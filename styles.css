@@ -1,9 +1,9 @@
 /* Master Styles */
 html,
 body {
-	color: rbga(0,0,0,.87);
-	font-family: 'Lato', Arial, sans-serif;
-	margin: 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Lato', Arial, sans-serif;
+  margin: 0;
 }
 
 h1,
@@ -12,41 +12,41 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
+  margin: 0;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .justify-center {
-	justify-content: center;
+  justify-content: center;
 }
 
 .align-center {
-	align-items: center;
+  align-items: center;
 }
 
 .child-quarter {
-	flex-basis: 25%;
+  flex-basis: 25%;
 }
 
 .red-200 {
-	background: #EF9A9A;
+  background: #ef9a9a;
 }
 
 .green-200 {
-	background: #A5D6A7;
+  background: #a5d6a7;
 }
 
 .purple-200 {
-	background: #CE93D8;
+  background: #ce93d8;
 }
 
 .teal-200 {
-	background: #80CBC4;
+  background: #80cbc4;
 }

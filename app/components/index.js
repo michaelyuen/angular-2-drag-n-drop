@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = require("./container/index");
 exports.ContainerComponent = index_1.ContainerComponent;
 var index_2 = require("./panel/index");

@@ -8,24 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var ToolbarComponent = (function () {
+var ToolbarComponent = /** @class */ (function () {
     function ToolbarComponent() {
     }
+    __decorate([
+        core_1.Input(),
+        __metadata("design:type", String)
+    ], ToolbarComponent.prototype, "title", void 0);
+    ToolbarComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'toolbar',
+            templateUrl: 'toolbar.component.html',
+            styleUrls: ['toolbar.component.css']
+        })
+    ], ToolbarComponent);
     return ToolbarComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", String)
-], ToolbarComponent.prototype, "title", void 0);
-ToolbarComponent = __decorate([
-    core_1.Component({
-        moduleId: module.id,
-        selector: 'toolbar',
-        templateUrl: 'toolbar.component.html',
-        styleUrls: ['toolbar.component.css']
-    }),
-    __metadata("design:paramtypes", [])
-], ToolbarComponent);
 exports.ToolbarComponent = ToolbarComponent;
 //# sourceMappingURL=toolbar.component.js.map

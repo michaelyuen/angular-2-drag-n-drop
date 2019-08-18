@@ -5,26 +5,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var ng2_dragula_1 = require("ng2-dragula");
 var app_component_1 = require("./app.component");
 var index_1 = require("./components/index");
-var AppModule = (function () {
+var AppModule = /** @class */ (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [platform_browser_1.BrowserModule, ng2_dragula_1.DragulaModule],
+            declarations: [
+                app_component_1.AppComponent,
+                index_1.ContainerComponent,
+                index_1.PanelComponent,
+                index_1.ToolbarComponent
+            ],
+            bootstrap: [app_component_1.AppComponent]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, ng2_dragula_1.DragulaModule],
-        declarations: [app_component_1.AppComponent, index_1.ContainerComponent, index_1.PanelComponent, index_1.ToolbarComponent],
-        bootstrap: [app_component_1.AppComponent]
-    }),
-    __metadata("design:paramtypes", [])
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map
